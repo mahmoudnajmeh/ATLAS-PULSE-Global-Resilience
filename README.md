@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 
 # 🌍 ATLAS PULSE
@@ -221,3 +222,6 @@ This repository may include data from sources with separate usage or redistribut
 Built with **Microsoft Power BI** · Documented for reproducibility and portfolio review
 
 </div>
+=======
+# ATLAS-PULSE-Global-Resilience
+>>>>>>> 1d8e1bd895d6acc0fdf083e7079588a202cf1112
