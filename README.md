@@ -17,15 +17,7 @@
 
 ## 📸 Dashboard Preview
 
-<!-- SCREENSHOT PLACEHOLDER
-1. Open a GitHub issue in this repository.
-2. Drag your dashboard screenshot into the issue editor and wait for the upload to finish.
-3. Copy the generated image URL.
-4. Replace YOUR_GITHUB_ISSUE_IMAGE_URL below with that URL.
-5. Remove the HTML comment markers around the image line when ready.
--->
-
-<!-- ![ATLAS PULSE — Global Resilience Dashboard](YOUR_GITHUB_ISSUE_IMAGE_URL) -->
+<img width="1322" height="741" alt="Image" src="https://github.com/user-attachments/assets/d6e5be2e-9b87-4200-86b1-499ede81f489" />
 
 > **Screenshot pending:** The final dashboard preview will be embedded here using a GitHub-hosted image URL copied from an issue.
 
@@ -182,9 +174,7 @@ erDiagram
 - [ ] Refresh the report from the repository's `data/` directory.
 - [ ] Confirm that source datasets may legally be redistributed.
 
-## 🖼️ Screenshots
-
-<img width="1322" height="741" alt="Image" src="https://github.com/user-attachments/assets/f84c8af2-81e0-4618-9a38-f5bac9094ac9" />
+## 🖼️ Screenshot
 
 <img width="1901" height="1020" alt="Image" src="https://github.com/user-attachments/assets/fa780e3d-e1e5-4765-b9cd-dbb552cba7c4" />
 
@@ -201,9 +191,9 @@ erDiagram
 - [ ] Add a dedicated documentation screenshot of the Power BI model view.
 - [ ] Review responsive layout and export quality.
 
-## 📄 Data & Licensing
+## 📄 Data
 
-This repository may include data from sources with separate usage or redistribution conditions. **Check the original dataset's license and attribution requirements before making the repository public.** No open-source license is implied unless a `LICENSE` file is explicitly added.
+This repository may include data from sources with separate usage or redistribution conditions. 
 
 ---
 
