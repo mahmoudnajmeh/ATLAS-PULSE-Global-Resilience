@@ -173,8 +173,6 @@ The actual Power BI data model, showing table relationships, cardinality, and su
 <img width="1901" height="1020" alt="Image" src="https://github.com/user-attachments/assets/fa780e3d-e1e5-4765-b9cd-dbb552cba7c4" />
 
 
-**Tip:** You can use a draft issue for uploading, but keep in mind that image availability and access can depend on repository and GitHub attachment permissions.
-
 ## 🧩 Future Improvements
 
 - [ ] Add a source/methodology section with dataset provenance and indicator definitions.
