@@ -182,18 +182,11 @@ erDiagram
 - [ ] Refresh the report from the repository's `data/` directory.
 - [ ] Confirm that source datasets may legally be redistributed.
 
-## 🖼️ Adding Screenshots from GitHub Issues
+## 🖼️ Screenshots
 
-You can host the preview directly on GitHub without committing a separate screenshot file:
+<img width="1327" height="743" alt="Image" src="https://github.com/user-attachments/assets/6e623269-f06e-4e50-a36b-50a907577a68" />
 
-1. Open **Issues → New issue** in your repository.
-2. Drag your dashboard image into the issue description.
-3. Wait for the upload and copy the generated image URL.
-4. Replace the screenshot placeholder near the top of this README with:
-
-```markdown
-![ATLAS PULSE — Global Resilience Dashboard]<img width="1327" height="743" alt="Image" src="https://github.com/user-attachments/assets/6e623269-f06e-4e50-a36b-50a907577a68" />
-```
+<img width="1901" height="1020" alt="Image" src="https://github.com/user-attachments/assets/fa780e3d-e1e5-4765-b9cd-dbb552cba7c4" />
 
 5. Remove the “Screenshot pending” line.
 
