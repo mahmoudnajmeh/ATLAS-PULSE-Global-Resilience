@@ -121,17 +121,12 @@ ATLAS-PULSE-Global-Resilience/
 | `Data_Dictionary.xlsx` | Reference documentation for source fields |
 | `ATLAS_PULSE_Global_Resilience.pbix` | Power BI report and semantic model |
 
-### Data model — conceptual view
 
-```mermaid
-erDiagram
-    DimCountry ||--o{ FactCountryYear : "country key"
-    DimYear ||--o{ FactCountryYear : "year key"
-    DimMetric |o--o{ FactSignals : "metric reference (verify)"
-    DimCountry |o--o{ FactSignals : "country reference (verify)"
-```
+### 🗂️ Power BI Data Model
 
-> The ER diagram is **illustrative**, not an assertion of the exact configured Power BI relationships. Confirm keys, cardinality, filter direction, and whether `FactSignals` connects to these dimensions in **Model view** before treating it as authoritative.
+The actual Power BI data model, showing table relationships, cardinality, and supporting analytical tables.
+
+<img width="1783" height="751" alt="Image" src="https://github.com/user-attachments/assets/8a6b07a4-98e7-46a0-958b-62612ac2f28b" />
 
 ## 🛠️ Technology Stack
 
