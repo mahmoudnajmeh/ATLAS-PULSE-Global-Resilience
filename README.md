@@ -1,6 +1,6 @@
-﻿<div align="center">
+<div align="center">
 
-# ­ƒîì ATLAS PULSE
+# 🌍 ATLAS PULSE
 ### Global Resilience Analytics Dashboard
 
 **Exploring economic stability, energy security, and climate resilience through interactive business intelligence.**
@@ -15,7 +15,7 @@
 
 ---
 
-## ­ƒô© Dashboard Preview
+## 📸 Dashboard Preview
 
 <!-- SCREENSHOT PLACEHOLDER
 1. Open a GitHub issue in this repository.
@@ -25,11 +25,11 @@
 5. Remove the HTML comment markers around the image line when ready.
 -->
 
-<!-- ![ATLAS PULSE ÔÇö Global Resilience Dashboard](YOUR_GITHUB_ISSUE_IMAGE_URL) -->
+<!-- ![ATLAS PULSE — Global Resilience Dashboard](YOUR_GITHUB_ISSUE_IMAGE_URL) -->
 
 > **Screenshot pending:** The final dashboard preview will be embedded here using a GitHub-hosted image URL copied from an issue.
 
-## Ô£¿ Overview
+## ✨ Overview
 
 **ATLAS PULSE** is a Microsoft Power BI dashboard designed to make multidimensional global resilience indicators easier to explore and interpret. It combines a geographic overview with high-level performance indicators and time-series comparisons in a single dark-themed analytical interface.
 
@@ -41,7 +41,7 @@ The report focuses on three complementary questions:
 
 > **Interpretation note:** The dashboard presents analytical indicators from its supplied dataset. They are not official forecasts, causal conclusions, or validated country-risk ratings unless independently established by the underlying source methodology.
 
-## ­ƒÄ» Dashboard Capabilities
+## 🎯 Dashboard Capabilities
 
 | Component | Purpose |
 |:--|:--|
@@ -53,9 +53,9 @@ The report focuses on three complementary questions:
 | **Resilience Score Trend by Year** | Comparison of average resilience score and economic stability over time |
 | **Risk Composition** | Side-by-side comparison of economy, energy, and climate-related measures |
 
-**Important:** The economy, energy, and climate bars should be interpreted according to their underlying measure definitions; their display in a panel named ÔÇ£Risk CompositionÔÇØ does not by itself mean that higher values represent higher risk.
+**Important:** The economy, energy, and climate bars should be interpreted according to their underlying measure definitions; their display in a panel named “Risk Composition” does not by itself mean that higher values represent higher risk.
 
-## ­ƒº¡ Analytics Architecture
+## 🧭 Analytics Architecture
 
 ```mermaid
 flowchart LR
@@ -103,20 +103,20 @@ flowchart LR
 
 *Conceptual workflow based on the project files and visible report components. Exact Power Query transformations, relationships, and measure formulas should be verified against the `.pbix` model.*
 
-## ­ƒùé´©Å Dataset & File Structure
+## 🗂️ Dataset & File Structure
 
 ```text
 ATLAS-PULSE-Global-Resilience/
-Ôö£ÔöÇÔöÇ ATLAS_PULSE_Global_Resilience.pbix
-Ôö£ÔöÇÔöÇ README.md
-Ôö£ÔöÇÔöÇ data/
-Ôöé   Ôö£ÔöÇÔöÇ Data_Dictionary.xlsx
-Ôöé   Ôö£ÔöÇÔöÇ DimCountry.csv
-Ôöé   Ôö£ÔöÇÔöÇ DimMetric.csv
-Ôöé   Ôö£ÔöÇÔöÇ DimYear.csv
-Ôöé   Ôö£ÔöÇÔöÇ FactCountryYear.csv
-Ôöé   ÔööÔöÇÔöÇ FactSignals.csv
-ÔööÔöÇÔöÇ screenshots/                 # Optional: local image assets
+├── ATLAS_PULSE_Global_Resilience.pbix
+├── README.md
+├── data/
+│   ├── Data_Dictionary.xlsx
+│   ├── DimCountry.csv
+│   ├── DimMetric.csv
+│   ├── DimYear.csv
+│   ├── FactCountryYear.csv
+│   └── FactSignals.csv
+└── screenshots/                 # Optional: local image assets
 ```
 
 | File | Role |
@@ -129,7 +129,7 @@ ATLAS-PULSE-Global-Resilience/
 | `Data_Dictionary.xlsx` | Reference documentation for source fields |
 | `ATLAS_PULSE_Global_Resilience.pbix` | Power BI report and semantic model |
 
-### Data model ÔÇö conceptual view
+### Data model — conceptual view
 
 ```mermaid
 erDiagram
@@ -141,7 +141,7 @@ erDiagram
 
 > The ER diagram is **illustrative**, not an assertion of the exact configured Power BI relationships. Confirm keys, cardinality, filter direction, and whether `FactSignals` connects to these dimensions in **Model view** before treating it as authoritative.
 
-## ­ƒøá´©Å Technology Stack
+## 🛠️ Technology Stack
 
 | Technology | Usage |
 |:--|:--|
@@ -152,17 +152,17 @@ erDiagram
 | **Microsoft Excel** | Data dictionary and field documentation |
 | **Git & GitHub** | Source distribution, documentation, and version control |
 
-## ­ƒÜÇ Run Locally
+## 🚀 Run Locally
 
 1. Clone or download this repository.
 2. Install **[Microsoft Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop)** on Windows.
 3. Open `ATLAS_PULSE_Global_Resilience.pbix`.
-4. If Power BI reports missing data sources, open **Home ÔåÆ Transform data ÔåÆ Data source settings** and update the file paths to the CSV files in `data/`.
+4. If Power BI reports missing data sources, open **Home → Transform data → Data source settings** and update the file paths to the CSV files in `data/`.
 5. Select **Refresh** to load the data and inspect the report pages.
 
 > **No Power BI organizational account is required simply to open a local `.pbix` in Power BI Desktop.** Online publishing, sharing, and some cloud-backed visuals may have separate account or licensing requirements.
 
-## ­ƒöì Analytical Design Principles
+## 🔍 Analytical Design Principles
 
 - **Context first:** Lead with a small number of KPIs before presenting geographic and temporal detail.
 - **Comparability:** Display measures side by side while retaining their proper units and definitions.
@@ -170,7 +170,7 @@ erDiagram
 - **Interpretability:** Distinguish descriptive indicators from predictive or causal claims.
 - **Visual hierarchy:** Use a consistent dark canvas with contrasting accents for charts and key metrics.
 
-## ­ƒº¬ Quality & Validation Checklist
+## 🧪 Quality & Validation Checklist
 
 - [ ] Verify data types and missing values across source tables.
 - [ ] Confirm country identifiers and latitude/longitude mappings.
@@ -182,24 +182,24 @@ erDiagram
 - [ ] Refresh the report from the repository's `data/` directory.
 - [ ] Confirm that source datasets may legally be redistributed.
 
-## ­ƒû╝´©Å Adding Screenshots from GitHub Issues
+## 🖼️ Adding Screenshots from GitHub Issues
 
 You can host the preview directly on GitHub without committing a separate screenshot file:
 
-1. Open **Issues ÔåÆ New issue** in your repository.
+1. Open **Issues → New issue** in your repository.
 2. Drag your dashboard image into the issue description.
 3. Wait for the upload and copy the generated image URL.
 4. Replace the screenshot placeholder near the top of this README with:
 
 ```markdown
-![ATLAS PULSE ÔÇö Global Resilience Dashboard](PASTE_YOUR_GITHUB_ISSUE_IMAGE_URL_HERE)
+![ATLAS PULSE — Global Resilience Dashboard](PASTE_YOUR_GITHUB_ISSUE_IMAGE_URL_HERE)
 ```
 
-5. Remove the ÔÇ£Screenshot pendingÔÇØ line.
+5. Remove the “Screenshot pending” line.
 
 **Tip:** You can use a draft issue for uploading, but keep in mind that image availability and access can depend on repository and GitHub attachment permissions.
 
-## ­ƒº® Future Improvements
+## 🧩 Future Improvements
 
 - [ ] Add a source/methodology section with dataset provenance and indicator definitions.
 - [ ] Document verified DAX measures and the final model relationships.
@@ -208,7 +208,7 @@ You can host the preview directly on GitHub without committing a separate screen
 - [ ] Add a dedicated documentation screenshot of the Power BI model view.
 - [ ] Review responsive layout and export quality.
 
-## ­ƒôä Data & Licensing
+## 📄 Data & Licensing
 
 This repository may include data from sources with separate usage or redistribution conditions. **Check the original dataset's license and attribution requirements before making the repository public.** No open-source license is implied unless a `LICENSE` file is explicitly added.
 
@@ -216,8 +216,8 @@ This repository may include data from sources with separate usage or redistribut
 
 <div align="center">
 
-**ATLAS PULSE** ┬À *Turning complex indicators into understandable insights.*
+**ATLAS PULSE** · *Turning complex indicators into understandable insights.*
 
-Built with **Microsoft Power BI** ┬À Documented for reproducibility and portfolio review
+Built with **Microsoft Power BI** · Documented for reproducibility and portfolio review
 
 </div>
