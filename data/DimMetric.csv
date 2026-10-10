@@ -1,0 +1,6 @@
+﻿Metric,Weight,Direction,Definition
+EnergySecurity,0.22,Higher is better,Synthetic 0-100 normalized score
+EconomicStability,0.23,Higher is better,Synthetic 0-100 normalized score
+Infrastructure,0.2,Higher is better,Synthetic 0-100 normalized score
+DigitalReadiness,0.2,Higher is better,Synthetic 0-100 normalized score
+ClimateAdaptation,0.15,Higher is better,Synthetic 0-100 normalized score
