@@ -116,7 +116,7 @@ ATLAS-PULSE-Global-Resilience/
 │   ├── DimYear.csv
 │   ├── FactCountryYear.csv
 │   └── FactSignals.csv
-└── screenshots/                 # Optional: local image assets
+└── screenshots/                
 ```
 
 | File | Role |
@@ -192,7 +192,7 @@ You can host the preview directly on GitHub without committing a separate screen
 4. Replace the screenshot placeholder near the top of this README with:
 
 ```markdown
-![ATLAS PULSE — Global Resilience Dashboard](PASTE_YOUR_GITHUB_ISSUE_IMAGE_URL_HERE)
+![ATLAS PULSE — Global Resilience Dashboard]<img width="1327" height="743" alt="Image" src="https://github.com/user-attachments/assets/6e623269-f06e-4e50-a36b-50a907577a68" />
 ```
 
 5. Remove the “Screenshot pending” line.
