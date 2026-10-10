@@ -184,7 +184,7 @@ erDiagram
 
 ## 🖼️ Screenshots
 
-<img width="1327" height="743" alt="Image" src="https://github.com/user-attachments/assets/6e623269-f06e-4e50-a36b-50a907577a68" />
+<img width="1322" height="741" alt="Image" src="https://github.com/user-attachments/assets/f84c8af2-81e0-4618-9a38-f5bac9094ac9" />
 
 <img width="1901" height="1020" alt="Image" src="https://github.com/user-attachments/assets/fa780e3d-e1e5-4765-b9cd-dbb552cba7c4" />
 
