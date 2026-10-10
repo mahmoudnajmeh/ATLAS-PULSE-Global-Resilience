@@ -19,7 +19,6 @@
 
 <img width="1322" height="741" alt="Image" src="https://github.com/user-attachments/assets/d6e5be2e-9b87-4200-86b1-499ede81f489" />
 
-> **Screenshot pending:** The final dashboard preview will be embedded here using a GitHub-hosted image URL copied from an issue.
 
 ## ✨ Overview
 
